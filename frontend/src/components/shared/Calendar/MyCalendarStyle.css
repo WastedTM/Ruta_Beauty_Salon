@@ -1,0 +1,198 @@
+.calendar-section{
+    width: 60vw;
+    height: 80vh;
+    min-height: 300px !important;
+    max-height: 600px !important;
+    max-width: 1100px !important;
+    min-width: 600px !important;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+
+    display: flex;
+}
+
+.info-enter{
+    width: 10vw;
+    min-width: 170px;
+    max-width: 300px ;
+    height: 80vh;
+    min-height: 300px !important;
+    max-height: 600px !important;
+    border-right: 1px solid #333333;
+}
+
+/* Calendar elements*/
+
+.calendar {
+    width: 50vw;
+}
+
+.react-datepicker{
+    display: block !important;
+}
+
+.react-datepicker__time-container .react-datepicker__time {
+    background-color: transparent;
+}
+
+.react-datepicker__header {
+    border-bottom: none;
+    padding-top: 1rem;
+}
+
+.react-datepicker__current-month, .react-datepicker-time__header, .react-datepicker-year-header{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.react-datepicker__month-container{
+    width: 30vw;
+    font-size: 2rem;
+}
+
+.react-datepicker__time-container{
+    width: 30%;
+    height: 80vh;
+    min-height: 300px !important;
+    font-size: 1rem;
+    border: 0 !important;
+}
+
+.react-datepicker__day-names{
+    font-size: 2rem;
+}
+
+.react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name{
+    width: 4rem;
+    height: 3rem;
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding-top: 0.6rem;
+}
+
+.custom-datepicker .react-datepicker__day:hover {
+    width: 4rem;
+    background-color: #f4a261;
+    color: white;
+}
+
+.custom-datepicker .react-datepicker__day--selected,
+.custom-datepicker .react-datepicker__day--keyboard-selected {
+    background-color: #b5651d;
+    color: white;
+    height: 3rem;
+}
+
+.custom-datepicker .react-datepicker__day--outside-month {
+    color: #ccc;
+}
+
+.react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button){
+    right: 30%;
+}
+
+/* TIME */
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list {
+    padding: 0;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item {
+    padding: 10px 0;
+    margin: 5px 0;
+    color: #b5651d;
+    background-color: white;
+    border: 1px solid #b5651d;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s; /* Плавний перехід */
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item:hover {
+    background-color: #b5651d;
+    color: white;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--selected {
+    background-color: #b5651d;
+    color: white;
+}
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box {
+    width: 90%;
+}
+
+.react-datepicker__time-list{
+    height: 42rem !important;
+}
+
+.react-datepicker__day--disabled {
+    color: #d3d3d3; /* світло-сірий колір для недоступних днів */
+    pointer-events: none;
+}
+
+
+.react-datepicker__time-container .react-datepicker__time .react-datepicker__time-box ul.react-datepicker__time-list li.react-datepicker__time-list-item--disabled {
+    background-color: #8b8b8b !important;
+    border: 1px #ffffff solid;
+    color: #ededed;
+    pointer-events: none;
+}
+
+/* Dropdown menu section */
+.info-enter{
+    padding-top: 2vh;
+}
+
+.info-enter h4{
+    text-align: left;
+    color: #181614;
+    margin: 2vh 1vw 0.5vh;
+    font-size: 1.25rem;
+}
+
+.master-select .service-select .procedure-select{
+    text-align: left;
+}
+
+.react-dropdown-select-content {
+    color: #181614;
+}
+
+.css-11h4dup {
+    margin: 0 auto;
+    width: 90% !important;
+}
+
+.info-enter{
+    font-size: 1.5rem;
+}
+
+.submit-button button{
+    /* wrap */
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+    letter-spacing: normal;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 2rem auto 0;
+
+    /* btn */
+    font-weight: 300;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+
+    border: 1px solid transparent;
+    border-radius: 1vh;
+    color: white;
+    background: black;
+
+    transition: color, background-color 500ms ease;
+}

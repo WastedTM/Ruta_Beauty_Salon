@@ -1,0 +1,284 @@
+.main-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+/* Herro section*/
+.hero-section {
+    width: 100vw;
+    max-height: 88vh;
+}
+
+.hero-wrapper {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.hero-text {
+    position: relative;
+
+    max-width: 50vw;
+    max-height: 66vh;
+
+    min-height: 250px;
+
+    padding: 5rem 4rem;
+
+    background-color: #E1DDD9;
+    box-shadow: 1rem 1rem 3rem 0 rgba(0, 0, 0, 0.25);
+    border-radius: 1vw;
+    right: -4vw;
+}
+
+.hero-text h1 {
+    font-size: 6rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.hero-text p {
+    font-size: 1.88rem;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.hero-text a {
+    text-decoration: none;
+    color: #181614;
+    font-size: 2.25rem;
+}
+
+.hero-text img {
+    width: 2.5vw;
+    margin-left: 1vw;
+}
+
+.hero-text a div {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #873413;
+    color: #EADCC9;
+    padding: 2vh ;
+    border-radius: 3vw;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    box-shadow: 1vh 0.3vw 1vh 0 rgba(0, 0, 0, 0.25);
+    font-size: 1.25rem;
+    height: 8vh;
+    width: 22vw;
+}
+
+.hero-img img {
+    flex: 1;
+    width: 44vw;
+    height: auto;
+    max-height: 88vh;
+    min-height: 250px;
+    border-radius: 10px;
+}
+
+
+/* Advantages Section*/
+
+.advantages-sector {
+    margin: 10rem 0 6rem;
+    width: 100%;
+    max-height: 35vh;
+}
+
+.advantages-sector .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vh 0;
+}
+
+/* Show item*/
+
+.item_container {
+    width: 20vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.item_container img {
+    width: 8vw;
+}
+
+.item_container h3 {
+    width: 16vw;
+
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #5e1605;
+
+    margin: 0.5vh 0 2vh 0;
+}
+
+.item_container p {
+    width: 16vw;
+
+    font-size: 1.25rem;
+}
+
+/* Slider section*/
+
+.slider-section {
+    width: 90vw;
+    border: 1px solid #873413;
+    border-radius: 3vw;
+    margin: 8vh auto;
+}
+
+.slider-section .wrapper {
+    padding: 3vh 2vw;
+}
+
+.slider-box {
+    display: flex !important;
+}
+
+.slider-box img {
+    width: 30vw;
+}
+
+.slider-box .text {
+    width: 50vw;
+    padding: 0 2vw;
+    font-style: italic;
+}
+
+.slider-box h3 {
+    width: 50vw;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #7D3F3F;
+}
+
+.slider-box p {
+    width: 50vw;
+    font-weight: 500;
+    font-size: 1.88rem;
+}
+
+.slick-dots {
+    position: relative !important;
+    bottom: 0 !important;
+}
+
+/* Services section*/
+
+.services-container {
+    width: 70vw;
+    height: auto;
+
+    margin: 5vh auto;
+}
+
+.services-container .wrapper {
+    text-align: center;
+}
+
+.services-container .wrapper .header {
+    font-size: 2.25rem;
+    color: #5e1605;
+    font-weight: 600;
+}
+
+.services-container .wrapper .description {
+    font-size: 3.12rem;
+    font-weight: 700;
+}
+
+.services-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services-container .item_container {
+    margin-top: 4vh;
+}
+
+.services-container .item_container img {
+    width: 6vw !important;
+}
+
+.services-container .item_container h3 {
+    width: 100% !important;
+}
+
+.services-container .item_container p {
+    width: 100% !important;
+}
+
+/* Master section*/
+
+.masters-container {
+    width: 66vw;
+
+    margin: 15vh auto 10vh;
+    text-align: center;
+}
+
+.masters-container h3{
+    color: #5E1605;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.masters-container .wrapper {
+    padding: 5vh 0 0 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.masters-container .wrapper .item_container img{
+    width: 15vw !important;
+}
+
+.masters-container .wrapper .item_container h3{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.masters-container .wrapper .item_container p{
+    font-size: 1.5rem;
+}
+
+/* Calendar section*/
+
+.make-appointment-section {
+    width: 100%;
+    height: 780px;
+
+    text-align: center;
+    color: #dddcdb;
+
+    background: url('../assets/Mask group.png');
+    background-size: cover;
+}
+
+.make-appointment-section h3{
+    margin: 2rem 0;
+    font-size: 2.25rem;
+    font-weight: 600;
+}
+
+.make-appointment-section p{
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-weight: 300;
+}
